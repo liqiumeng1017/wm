@@ -1,18 +1,10 @@
-> 一直对vue很感兴趣，最近使用vue2.0开发了高仿饿了么点餐系统来练练手，不得不说vue真是一个很不错的框架，但是也遇到过一些坑，在这里和大家分享一下
-
+参考项目：
+https://github.com/SimonZhangITer/VueDemo_Sell_Eleme
+https://github.com/callmepinggege/-vux-vuex-vue-resource-vue-router-/tree/master/src/vue
+https://github.com/youzan/vant
 # 饿了么点餐系统
 
 > vue2.0、vuex、vue-router、axios、webpack、eslint、better-scroll
-
-
-## 演示
-
-<a href="https://simonzhangiter.github.io/VueDemo_Sell_Eleme" target=_blank>在线演示戳我</a>（请使用chrome开发者手机演示模式预览）
-
-### 移动端演示
-扫二维码在手机上查看效果更好
-
-<img src="https://static.oschina.net/uploads/space/2017/0207/180535_4FSI_2493500.png" width="25%">
 
 
 ## 组件
@@ -161,15 +153,3 @@ npm run build
 <img src="https://static.oschina.net/uploads/space/2017/0207/110250_3uWi_2493500.jpeg" width="40%"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://cloud.githubusercontent.com/assets/20501873/24188896/ff2c5910-0f1d-11e7-80c0-bc28fd84fe80.png" width="40%"/>
 
 ## 交流
-
-欢迎热爱学习、忠于分享的胖友一起来交流
-
-- QQ：745913574
-
-- QQ群：149683643
-
-## Donation
-
-If you find this project useful, you can buy me a cup of coffee
-
-<img width="650" src="https://static.oschina.net/uploads/space/2017/0223/201225_oQrz_2493500.jpeg" alt="">
