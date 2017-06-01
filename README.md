@@ -1,8 +1,27 @@
+#####1.开发环境搭建----begin######### 
+下载安装 Node.js http://nodejs.cn/ node -v 检查是否安装成功
+#smart-npm 更智能的 npm ，
+可以在我们使用 npm install 时自动从国内的镜像下载，而在我们使用 npm publish 又能发布到官方的 registry 上！ #使用淘宝定制的 cnpm npm install --global smart-npm --registry=https://registry.npm.taobao.org/
+#Yarn 有效地管理了许多 JavaScript 项目的包依赖关系。
+ npm install -g yarnpkg
+ #IDE： 
+atom
+######2.开发环境搭建----end#########
+######项目启动----begin############ 
+snpm install npm run dev 
+##########目启动----end####################
+
 参考项目：
 https://github.com/SimonZhangITer/VueDemo_Sell_Eleme
+
 https://github.com/callmepinggege/-vux-vuex-vue-resource-vue-router-/tree/master/src/vue
+
 https://github.com/youzan/vant
-# 饿了么点餐系统
+
+# 项目install 后配置调整
+需根据config/vant_package.json修改 node_modelus下vant下的package.json里对vue  vue-complier的依赖版本号
+
+# 仿饿了么点餐系统
 
 > vue2.0、vuex、vue-router、axios、webpack、eslint、better-scroll
 
