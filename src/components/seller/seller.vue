@@ -206,8 +206,8 @@
 <script>
 import axios from 'axios'
 import BScroll from 'better-scroll'
-import star from 'components/star/star'
-import iconMap from 'components/iconMap/iconMap'
+import star from '../../components/star/star'
+import iconMap from '../../components/iconMap/iconMap'
 
 export default {
   components: {
@@ -225,7 +225,7 @@ export default {
   },
   methods: {
     _init() {
-      axios.get('static/data.json').then((res) => {
+      axios.get('../../../static/data.json').then((res) => {
         this.seller = res.data.seller
         this.$nextTick(() => {
           this.sellerScroll = new BScroll(this.$refs.sellerWrapper, {

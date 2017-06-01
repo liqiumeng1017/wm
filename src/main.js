@@ -1,16 +1,21 @@
 import Vue from 'vue'
 import App from './App'
 import VueRouter from 'vue-router'
+import index from 'components/index/index'
 import goods from 'components/goods/goods'
 import ratings from 'components/ratings/ratings'
 import seller from 'components/seller/seller'
+import shop from 'components/shop/shop'
 import vueTap from 'v-tap'
 import fastclick from 'fastclick'
 import Vuex from 'vuex'
+import Zanui from 'vant'
+import 'vant/lib/vant-css/index.css'
 
 Vue.use(vueTap)
 Vue.use(VueRouter)
 Vue.use(Vuex)
+Vue.use(Zanui)
 
 const store = new Vuex.Store({
   state: {
@@ -25,16 +30,25 @@ const store = new Vuex.Store({
   }
 })
 const router = new VueRouter({
-  routes: [{
-    path: '/goods',
-    component: goods
-  }, {
-    path: '/ratings',
-    component: ratings
-  }, {
-    path: '/seller',
-    component: seller
-  }],
+  routes: [
+    {
+      path: '/',
+      component: index
+    },
+    { path: '/index', component: index },
+    {
+      path: '/shop',
+      component: shop
+    }, {
+      path: '/goods',
+      component: goods
+    }, {
+      path: '/ratings',
+      component: ratings
+    }, {
+      path: '/seller',
+      component: seller
+    }],
   linkActiveClass: 'active'
 })
 
@@ -50,4 +64,4 @@ new Vue({
   }
 }).$mount('#app')
 
-router.push('goods')
+

@@ -15,7 +15,7 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-@import '../../common/stylus/mixin'
+@import '../../../static/common/stylus/mixin'
   .iconMap
     display inline-block
     background-size 100% 100%

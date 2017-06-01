@@ -44,7 +44,7 @@ export default {
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-  @import "../../common/stylus/mixin.styl"
+  @import "../../../static/common/stylus/mixin.styl"
   .star
     .star-item
       display inline-block

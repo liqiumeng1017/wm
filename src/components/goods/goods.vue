@@ -62,8 +62,9 @@ export default {
     seller: Object
   },
   created() {
-    axios.get('static/data.json').then((res) => {
+    axios.get('../../../static/data.json').then((res) => {
       this.goods = res.data.goods
+      debugger
       this.$nextTick(() => {
         this._initScroll(); // 初始化scroll
         this._calculateHeight(); // 初始化列表高度列表
@@ -149,7 +150,7 @@ export default {
 </script>
 
 <style lang="stylus">
-@import '../../common/stylus/mixin'
+@import '../../../static/common/stylus/mixin'
   .goods
     display flex
     position absolute
